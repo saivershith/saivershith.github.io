@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Website</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="text-center bg-dark p-3 text-white">
+            <h3>welcome to my Registration..!</h3>
+        </div>
+        <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+
+            <a class="navbar-brand" href="#">Navbar</a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i>&nbsp;Home&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>About Us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#Login Modal"><i class="fas fa-sign-in-alt" ></i>&nbsp;Login&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html"><i class="fas fa-user-plus" ></i>&nbsp;Sign Up&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="far fa-address-book"></i>&nbsp;Contact Us&nbsp;</a>
+                    </li>
+                    <li>
+                        <form class="form-inline">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="jumbotron border">
+            <div class="row">
+                <div class="col-sm-8 text-primary ">
+                    <h1 style="color:black;">Hello all..</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a mollitia facere fugiat, odio accusantium, velit reiciendis dolores excepturi dolorem ea quasi eveniet aperiam facilis nesciunt fuga. Expedita, sed aspernatur.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis illum esse distinctio a nesciunt quia, a spernatur neque magnam asperiores corrupti similique voluptate, fuga ut, ratione libero? Error sapiente culpa expedita.</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="vershith.jpg" class="rounded-circle pt-0 ">
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="Login Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+
+                    <div class="modal-header">
+                        <h4 class="modal-title  text-secondary">Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Password:</label>
+                            <input type="pass" name="pass" class="form-control" placeholder="Enter password">
+                        </div>
+                        <div class="form-group form-check">
+                            <label for="check" class="form-check-label">
+                <input type="checkbox" name="check" id="check" class="form-check-input">Remember Me
+              </label>
+
+                        </div>
+                        <button type="button" class="btn btn-success">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal" id="signup Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+
+                    <div class="modal-header">
+                        <h4 class="modal-title  text-secondary">Sign Up</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label for="first">First name</label>
+                            <input type="text" class="form-control" placeholder="Enter first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last">Last name</label>
+                            <input type="text" class="form-control" placeholder="Enter last name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dob">D-O-B:</label>
+                            <input type="date" class="form-control" placeholder=" Enter DOB">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" placeholder="Enter email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pass">Password:</label>
+                            <input type="pass" name="pass" class="form-control" placeholder="Enter password">
+                        </div>
+
+                        <div class="form-group form-check">
+                            <label for="check" class="form-check-label">
+                      <input type="checkbox" name="check" id="check" class="form-check-input">Remember Me
+                    </label>
+                        </div>
+                        <button type="button" class="btn btn-success">Submit</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
